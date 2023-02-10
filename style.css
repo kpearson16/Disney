@@ -1,0 +1,193 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to bottom right black ,#0c111b, 300px);
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0;
+}
+.logo{
+    margin-left: 2%;
+    padding-top: 0.5%;
+    width: 100px;
+    height: 50px;
+
+}
+.navbar, .navtabs{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    background-color: rgb(245, 245, 245);
+}
+.navtabs{
+    display: flex;
+    margin-left: 10px;
+    padding-left: 2px;
+    width: 40%;
+}
+.nav1{
+    margin-left: 20px;
+    font-size: smaller;
+}
+ul{
+    list-style: none;
+
+}
+.right{
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.searchBox{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 200px;
+    margin-left: 0;
+    padding-left: 0;
+    transition: 0.5s;;
+}
+.searchBox:focus{
+    width: 200px;
+    background: rgb(51, 51, 51);
+    color:rgb(204, 204, 224);
+}
+.subButton{
+    background: blue;
+    color: white;
+    border-radius: 20px;
+}
+.profile{
+    width: 30px;
+    border-radius: 30px;
+    margin-left: 140px
+}
+.carouseldiv{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    margin-top: 75px;
+    margin-left: 0px;
+}
+.carousel{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 0;
+    /*background: rgb(88, 171, 226);*/
+}
+.slide{
+    flex: 0 0 auto;
+    margin-right: 30px;
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    transition: 1s;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    transition-timing-function: ease;
+    /*background: linear-gradient (#6aa3a6 50%, #433c6e 25%, #00d4ff 25%);*/
+}
+.img{
+    width: 50%;
+    margin-left: 20px;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    margin-left: 45%;
+}
+p{
+    font-size: 12px;
+}
+.slideContent{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+.title{
+    padding-left: 40px;
+}
+.browse{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    font-size: 27px;
+    margin-left: 2.8%;
+    margin-top: 5%;
+    margin-bottom: -10px;
+}
+.trending{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    font-size: 27px;
+    margin-top: 3%;
+    margin-bottom: -50px;
+    margin-left: 2.8%;
+}
+.desc{
+    padding-left: 40px;
+    line-height: 20px;
+    opacity: 0.8;
+    width: 80%;
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 7%;
+}
+.secondSection{
+    margin-top: 3%;
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.selections{
+    height: 50%;
+    display: block;
+    width: 30%;
+}
+.poster{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20%;
+}
+.titleS{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.watch{
+    font-weight: 600;
+}
+.poster2{
+    display: flex;
+    width: 190px;
+    height: 280x;
+    justify-content: center;
+    align-content: center;
+    margin-left: 18%;
+}
+.poster3{
+    display: flex;
+    width: 190px;
+    height: 280x;
+    justify-content: center;
+    align-content: center;
+    margin-left: 18%;
+}
